@@ -1,4 +1,9 @@
-
+<?php
+if (!(isset($_COOKIE["session_hash"]))) {
+  $sessionHash = mt_rand();
+  setcookie('session_hash', $sessionHash, time() + (86400 * 3), '/');
+}
+?>
 <!doctype html>
 <html lang="en">
 

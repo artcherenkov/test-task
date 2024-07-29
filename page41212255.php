@@ -1,3 +1,9 @@
+<?php
+if (!(isset($_COOKIE["session_hash"]))) {
+  $sessionHash = mt_rand();
+  setcookie('session_hash', $sessionHash, time() + (86400 * 3), '/');
+}
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -365,9 +371,21 @@
         }
       })();
     </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-535W5LJ');</script>
+    <!-- End Google Tag Manager -->
+    <script src="https://lp.insidium.ru/scripts/landing.js"></script>
   </head>
 
   <body class="t-body" style="margin: 0">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-535W5LJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!--allrecords-->
     <div
       id="allrecords"
@@ -49599,41 +49617,41 @@
               Array.prototype.forEach.call(recs, function (rec) {
                 var selects =
                   'a[href^="#"]\
-:not([href="#"])\
-:not(.carousel-control)\
-:not(.t-carousel__control)\
-:not([href^="#price"])\
-:not([href^="#submenu"])\
-:not([href^="#popup"])\
-:not([href*="#zeropopup"])\
-:not([href*="#closepopup"])\
-:not([href*="#closeallpopup"])\
-:not([href^="#prodpopup"])\
-:not([href^="#order"])\
-:not([href^="#!"])\
-:not([target="_blank"]),' +
-                  'a[href^="' +
-                  curPath +
-                  '#"]\
-:not([href*="#!/tfeeds/"])\
-:not([href*="#!/tproduct/"])\
-:not([href*="#!/tab/"])\
-:not([href*="#popup"])\
-:not([href*="#zeropopup"])\
-:not([href*="#closepopup"])\
-:not([href*="#closeallpopup"])\
-:not([target="_blank"]),' +
-                  'a[href^="' +
-                  curFullPath +
-                  '#"]\
-:not([href*="#!/tfeeds/"])\
-:not([href*="#!/tproduct/"])\
-:not([href*="#!/tab/"])\
-:not([href*="#popup"])\
-:not([href*="#zeropopup"])\
-:not([href*="#closepopup"])\
-:not([href*="#closeallpopup"])\
-:not([target="_blank"])';
+                    :not([href="#"])\
+                    :not(.carousel-control)\
+                    :not(.t-carousel__control)\
+                    :not([href^="#price"])\
+                    :not([href^="#submenu"])\
+                    :not([href^="#popup"])\
+                    :not([href*="#zeropopup"])\
+                    :not([href*="#closepopup"])\
+                    :not([href*="#closeallpopup"])\
+                    :not([href^="#prodpopup"])\
+                    :not([href^="#order"])\
+                    :not([href^="#!"])\
+                    :not([target="_blank"]),' +
+                                      'a[href^="' +
+                                      curPath +
+                                      '#"]\
+                    :not([href*="#!/tfeeds/"])\
+                    :not([href*="#!/tproduct/"])\
+                    :not([href*="#!/tab/"])\
+                    :not([href*="#popup"])\
+                    :not([href*="#zeropopup"])\
+                    :not([href*="#closepopup"])\
+                    :not([href*="#closeallpopup"])\
+                    :not([target="_blank"]),' +
+                                      'a[href^="' +
+                                      curFullPath +
+                                      '#"]\
+                    :not([href*="#!/tfeeds/"])\
+                    :not([href*="#!/tproduct/"])\
+                    :not([href*="#!/tab/"])\
+                    :not([href*="#popup"])\
+                    :not([href*="#zeropopup"])\
+                    :not([href*="#closepopup"])\
+                    :not([href*="#closeallpopup"])\
+                    :not([target="_blank"])';
                 var elements = rec.querySelectorAll(selects);
                 Array.prototype.forEach.call(elements, function (element) {
                   element.addEventListener("click", function (event) {
