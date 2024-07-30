@@ -47,7 +47,7 @@ if (!(isset($_COOKIE["session_hash"]))) {
     </noscript>
     <link rel="stylesheet" href="css/tilda-zero-gallery-1.0.min.css" type="text/css" media="all"
       onerror="this.loaderr='y';"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Forum&family=Jost:ital,wght@0,400;0,600;0,700;1,400&Mulish:wght@300;400;500;600;700;800&display=swap" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Forum&family=Jost:ital,wght@0,400;0,600;0,700;1,400&Mulish:wght@300;400;500;600;700;800&display=swap" type="text/css"/>
     <script nomodule src="js/tilda-polyfill-1.0.min.js" charset="utf-8"></script>
     <script type="text/javascript">
       function t_onReady(func) {
@@ -36058,6 +36058,46 @@ if (!(isset($_COOKIE["session_hash"]))) {
           "js/tilda-stat-1.0.min.js"
         );
       }, 2000);
+    </script>
+    <script>
+      function getCookie(name) {
+        var matches = document.cookie.match(new RegExp(
+          "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+        ));
+        return matches ? decodeURIComponent(matches[1]) : undefined;
+      }
+
+      $(document).ready(function () {
+        if (getCookie('session_hash')) {
+          $("button[type=submit]")
+            .before('<input required type="hidden" name="hash" value="' + getCookie('session_hash') + '">');
+        } else {
+          let forms = document.getElementsByTagName('form');
+
+          if (forms.length > 0) {
+            for (let i = 0; i < forms.length; i++) {
+
+              let form = forms[i],
+                action = form.getAttribute('action');
+
+              if (action == '/send_form_api_def.php') form.setAttribute('action', '/send_form_api.php');
+              if (action == '/send_form_def.php') form.setAttribute('action', '/send_form.php');
+
+            }
+          }
+        }
+      });
+
+      $('button[type=submit]').on('click', function () {
+        var btn = $('button[type=submit]');	/*или input[type=submit]*/
+        btn.css("cursor", "not-allowed");
+        btn.css("pointer-events", "none");
+
+        setTimeout(function () {
+          btn.css("cursor", "pointer");
+          btn.css("pointer-events", "auto");
+        }, 2500);
+      });
     </script>
   </body>
 </html>
