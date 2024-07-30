@@ -47,9 +47,7 @@ if (!(isset($_COOKIE["session_hash"]))) {
     </noscript>
     <link rel="stylesheet" href="css/tilda-zero-gallery-1.0.min.css" type="text/css" media="all"
       onerror="this.loaderr='y';"/>
-    <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Forum&family=Jost:ital,wght@0,400;0,600;0,700;1,400&Mulish:wght@300;400;500;600;700;800&display=swap"
-      type="text/css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Forum&family=Jost:ital,wght@0,400;0,600;0,700;1,400&Mulish:wght@300;400;500;600;700;800&display=swap" type="text/css" />
     <script nomodule src="js/tilda-polyfill-1.0.min.js" charset="utf-8"></script>
     <script type="text/javascript">
       function t_onReady(func) {
@@ -12593,71 +12591,11 @@ if (!(isset($_COOKIE["session_hash"]))) {
                   imgfield="tn_img_1699887757420"/>
               </div>
             </div>
-            <div class="t396__elem tn-elem tn-elem__6666732271699887833807" data-elem-id="1699887833807"
-              data-elem-type="shape" data-field-top-value="100" data-field-left-value="640" data-field-height-value="620"
-              data-field-width-value="460" data-field-axisy-value="top" data-field-axisx-value="left"
-              data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px"
-              data-field-heightunits-value="px" data-field-widthunits-value="px" data-field-top-res-320-value="250"
-              data-field-height-res-320-value="541" data-field-width-res-320-value="320"
-              data-field-top-res-640-value="410" data-field-left-res-640-value="0" data-field-axisx-res-640-value="center"
-              data-field-left-res-960-value="500">
-              <div class="tn-atom"></div>
-            </div>
-            <div class="t396__elem tn-elem tn-elem__6666732271668603092339 t-animate" data-elem-id="1668603092339"
-              data-elem-type="text" data-field-top-value="120" data-field-left-value="670" data-field-width-value="421"
-              data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
-              data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value=""
-              data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="1.5"
-              data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="270"
-              data-field-top-res-640-value="430" data-field-left-res-640-value="0" data-field-axisx-res-640-value="center"
-              data-field-left-res-960-value="530">
-              <div class="tn-atom" field="tn_text_1668603092339">
-                Заполните форму,
-              </div>
-            </div>
-            <div class="t396__elem tn-elem tn-elem__6666732271668603158021 t-animate" data-elem-id="1668603158021"
-              data-elem-type="text" data-field-top-value="164" data-field-left-value="647" data-field-width-value="446"
-              data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
-              data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value=""
-              data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="1.5"
-              data-animate-distance="100" data-animate-mobile="y" data-field-top-res-320-value="304"
-              data-field-width-res-320-value="330" data-field-top-res-640-value="474" data-field-left-res-640-value="0"
-              data-field-axisx-res-640-value="center" data-field-left-res-960-value="507">
-              <div class="tn-atom" field="tn_text_1668603158021">
-                чтобы закрепить за&nbsp;собой
-                <strong>бонусное место</strong> и&nbsp;получить
-                <strong style="color: rgb(181, 138, 132)">в&nbsp;подарок запись «PRO Деньги»</strong>
-              </div>
-            </div>
-            <div class="t396__elem tn-elem tn-elem__6666732271668603225291" data-elem-id="1668603225291"
-              data-elem-type="form" data-field-top-value="229" data-field-left-value="670" data-field-width-value="400"
-              data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid"
-              data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value=""
-              data-field-widthunits-value="px" data-field-top-res-320-value="359" data-field-width-res-320-value="300"
-              data-field-top-res-640-value="539" data-field-left-res-640-value="0" data-field-axisx-res-640-value="center"
-              data-field-left-res-960-value="530" data-field-inputpos-value="v" data-field-inputfontfamily-value="Mulish"
-              data-field-inputfontsize-value="20" data-field-inputfontweight-value="400"
-              data-field-inputcolor-value="#17161b" data-field-inputbgcolor-value="#fff" data-field-inputradius-value="50"
-              data-field-inputheight-value="80" data-field-inputmargbottom-value="20" data-field-inputmargright-value="20"
-              data-field-inputtitlefontsize-value="16" data-field-inputtitlefontweight-value="400"
-              data-field-inputtitlecolor-value="#000" data-field-inputtitlemargbottom-value="5"
-              data-field-inputelscolor-value="#ffffff" data-field-inputelsfontweight-value="400"
-              data-field-inputelsfontsize-value="14" data-field-buttontitle-value="ПОЛУЧИТЬ ПОДАРОК"
-              data-field-buttoncolor-value="#2b2a2e" data-field-buttonbgcolor-value="#ddb774"
-              data-field-buttonradius-value="50" data-field-buttonwidth-value="400" data-field-buttonheight-value="90"
-              data-field-buttonfontfamily-value="Mulish" data-field-buttonfontsize-value="22"
-              data-field-buttonfontweight-value="700" data-field-inputheight-res-320-value="70"
-              data-field-inputmargbottom-res-320-value="15" data-field-buttonwidth-res-320-value="300"
-              data-field-buttonheight-res-320-value="80" data-field-buttonfontsize-res-320-value="20">
-              <div class="tn-atom tn-atom__form"></div>
-              <!--googleoff: all--><!--noindex-->
-              <div data-nosnippet="true" class="tn-atom__inputs-wrapp" style="display: none">
-              <textarea class="tn-atom__inputs-textarea">
-              [{"lid":"1531306540094","ls":"10","loff":"","li_type":"nm","li_name":"name","li_ph":"\u0412\u0430\u0448\u0435 \u0438\u043c\u044f","li_nm":"name"},{"lid":"1531306243545","ls":"20","loff":"","li_type":"em","li_name":"email","li_ph":"\u0412\u0430\u0448 \u0435mail","li_nm":"email"},{"lid":"1668603250854","ls":"30","loff":"","li_type":"ph","li_ph":"\u0412\u0430\u0448 \u0442\u0435\u043b\u0435\u0444\u043e\u043d","li_nm":"Phone"},{"lid":"1668603265972","ls":"40","loff":"","li_type":"cb","li_label":"<span style=\"color: rgb(255, 255, 255);\">\u0414\u0430\u044e <\/span><a href=\"https:\/\/sorokadmitriy.ru\/personal.pdf\" style=\"color: rgb(255, 255, 255); border-bottom: 1px solid rgb(255, 255, 255); box-shadow: none; text-decoration: none;\" target=\"_blank\" rel=\"noreferrer noopener\">\u0441\u043e\u0433\u043b\u0430\u0441\u0438\u0435 \u043d\u0430 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 \u043c\u043e\u0438\u0445 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445<\/a>","li_checked":"y","li_nm":"Checkbox"}]
-              </textarea>
-              </div>
-              <!--/noindex--><!--googleon: all-->
-            </div>
+              <?php
+              include 'block_form_component.php';
+
+              echo render_block_form();
+              ?>
           </div>
         </div>
         <script>
@@ -35873,7 +35811,7 @@ if (!(isset($_COOKIE["session_hash"]))) {
         </div>
       </div>
         <?php
-        include 'form_component.php';
+        include 'popup_form_component.php';
 
         $forms = [
             ['id' => 'rec667663847', 'idx' => 1, 'title' => 'STANDARD'],
